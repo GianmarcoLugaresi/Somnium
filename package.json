@@ -1,8 +1,9 @@
 
   {
-      "name": "Sito Web Desktop",
+      "name": "Somnium",
       "version": "0.1.0",
       "private": true,
+      "homepage": "http://somnium.github.io/github_pages",
       "dependencies": {
           "@emailjs/browser": "*",
           "@radix-ui/react-accordion": "^1.2.3",
@@ -57,6 +58,8 @@
       },
       "scripts": {
           "dev": "vite",
-          "build": "vite build"
+          "build": "vite build",
+          "predeploy": "npm run bulid",
+          "deploy":"gh-pages -d build"
       }
   }
