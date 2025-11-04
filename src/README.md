@@ -6,7 +6,7 @@ Sito web ufficiale di Somnium, l'app di apprendimento linguistico durante il son
 
 - **Colori Brand**: #0470f9 (blu), #120b1e (scuro), #f2f2f2 (grigio)
 - **Font**: Plus Jakarta Sans Bold
-- **Design**: Importato da Figma
+
 
 ## 🚀 Tecnologie
 
