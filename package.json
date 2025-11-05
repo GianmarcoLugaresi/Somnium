@@ -2,7 +2,7 @@
   "name": "somnium",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GianmarcoLugaresi.github.io/Somnium",
+  "homepage": "http://somniumm.it",
   "dependencies": {
     "@emailjs/browser": "*",
     "@radix-ui/react-accordion": "^1.2.3",
