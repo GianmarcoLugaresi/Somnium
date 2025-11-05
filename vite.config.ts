@@ -1,5 +1,4 @@
-
-  import { defineConfig } from 'vite';
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 import { fileURLToPath } from 'url'; // <-- Aggiunto per __dirname
@@ -10,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Somnium/', // <-- RIGA FONDAMENTALE CHE MANCAVA
+  base: '/', // <-- MODIFICATO PER IL TUO DOMINIO PERSONALIZZATO
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
@@ -62,7 +61,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'build',
+    outDir: 'build', // Lascia 'build'
   },
   server: {
     port: 3000,
