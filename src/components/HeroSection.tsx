@@ -21,7 +21,7 @@ export default function HeroSection({ onNavigateToComingSoon }: HeroSectionProps
           </div>
           
           <h1 className="font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold text-[36px] sm:text-[48px] lg:text-[64px] leading-tight text-black tracking-[-2px]">
-            Impara Nuove Lingue Mentre Dormi
+            Impara Nuove Parole Mentre Dormi
           </h1>
           
           <p className="font-['Plus_Jakarta_Sans',sans-serif] text-[16px] sm:text-[18px] lg:text-[20px] text-gray-600 leading-relaxed">
